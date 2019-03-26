@@ -1,0 +1,16 @@
+#app
+server:
+    port: 8021
+
+#spring
+spring:
+  devtools:
+    restart:
+      enabled: false
+
+#rabbitmq
+  rabbitmq:
+    host: 127.0.0.1
+    port: 5672
+    username: nico
+    password: nico
